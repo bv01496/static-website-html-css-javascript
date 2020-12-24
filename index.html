@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img class="logo-img" src="images/logo.png" alt="">
+        </div>
+        <div class="nav-items">
+            <ul >
+                <li class="nav-links"><a href="#">home</a> </li>
+                <li class="nav-links"><a href="#">servics</a></li>
+                <li class="nav-links"><a href="#">products</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="information">
+        <div class="oblique"></div>
+        <img src="images/mobile.png" alt="">
+        <div class="circle" id="cir">
+            <div class="features one">
+            <img src="images/camera.png" class="">
+            <p>64mp camera with portrite mode</p>
+            </div>  
+            <div class="features two">
+            <img src="images/battery.png" class="">
+            <p>get 6.7inch bigger screen</p>
+            </div>
+            <div class="features three">
+            <img src="images/display.png" class="">
+            <p>get 6.7inch bigger screen</p>
+            </div>
+            <div class="features four">
+            <img src="images/processor.png" class="">
+            <p>get 6.7inch bigger screen</p>
+            </div>
+        </div>
+        <div class="arrow">
+            <img src="images/arrow.png" onclick="fun()" id="uparrow" alt="">
+            <p style="color: white;">features</p>
+            <img class="down" onclick="fun2()" src="images/arrow.png" id="downarrow" alt="">
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
